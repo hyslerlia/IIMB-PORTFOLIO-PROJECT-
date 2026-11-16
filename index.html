@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080707">
+<title>Khyathi — Creative Portfolio</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:#080707}body{margin:0;background:#080707;color:#fff;font-family:Georgia,serif}
+main{width:100%;max-width:1600px;margin:0 auto}
+.slide{position:relative;width:100%;line-height:0;scroll-margin-top:12px}
+.slide img{display:block;width:100%;height:auto}
+.hotspot{position:absolute;display:block;z-index:2;cursor:pointer}
+.hotspot:focus-visible{outline:3px solid #b9effb;outline-offset:3px}
+.toc-about{left:28.3%;top:54.5%;width:12%;height:5%}
+.toc-skills{left:44%;top:60%;width:11%;height:5%}
+.toc-education{left:60%;top:56%;width:12%;height:5%}
+.toc-experience{left:34.5%;top:70.5%;width:12%;height:5%}
+.toc-portfolio{left:53.5%;top:74%;width:12%;height:5%}
+.toc-contact{left:44%;top:87%;width:11%;height:5%}
+.contact-phone{left:18%;top:39%;width:26%;height:7%}
+.contact-email{left:18%;top:49%;width:26%;height:7%}
+.contact-linkedin{left:18%;top:59%;width:26%;height:7%}
+@media(max-width:600px){.slide{overflow:hidden}.slide img{width:100%;height:auto}.hotspot{min-height:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main aria-label="Khyathi creative portfolio">
+<section class="slide" id="home" aria-label="Portfolio cover"><img src="assets/page-1.png" alt="Creative Portfolio cover with a pink vintage typewriter"></section>
+<section class="slide" id="contents" aria-label="Topic outline">
+<img src="assets/page-2.png" alt="Topic outline: About me, skills, education, experience, portfolio and contact">
+<a class="hotspot toc-about" href="#about" aria-label="About me"></a>
+<a class="hotspot toc-skills" href="#skills" aria-label="Skills"></a>
+<a class="hotspot toc-education" href="#education" aria-label="Education"></a>
+<a class="hotspot toc-experience" href="#experience" aria-label="Work experience"></a>
+<a class="hotspot toc-portfolio" href="#portfolio" aria-label="Portfolio"></a>
+<a class="hotspot toc-contact" href="#contact" aria-label="Contact"></a>
+</section>
+<section class="slide" id="about" aria-label="About Khyathi"><img src="assets/page-3.png" alt="Hi, I'm Khyathi. Creative thinker, marketer and entrepreneur. BBA student at IIM Bangalore."></section>
+<section class="slide" id="skills" aria-label="Skills"><img src="assets/page-4.png" alt="Skills: branding and graphic design, marketing, and human resources"></section>
+<section class="slide" id="education" aria-label="Educational attainment"><img src="assets/page-5.png" alt="Educational attainment, 2026"></section>
+<section class="slide" id="experience" aria-label="Work experience"><img src="assets/page-6.png" alt="Work experience: Spice and Steam social media marketing, co-founder Setts Greens, HR recruiter and junior manager at Upscore"></section>
+<section class="slide" id="portfolio" aria-label="Portfolio"><img src="assets/page-6.png" alt="Selected work and experience"></section>
+<section class="slide" id="contact" aria-label="Contact details">
+<img src="assets/page-7.png" alt="Contact Khyathi: phone, email, LinkedIn and Hyderabad, India">
+<a class="hotspot contact-phone" href="tel:+917674983445" aria-label="Call Khyathi"></a>
+<a class="hotspot contact-email" href="mailto:khyathin26@iimb.ac.in" aria-label="Email Khyathi"></a>
+<a class="hotspot contact-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Khyathi%20Naidu" target="_blank" rel="noopener" aria-label="Find Khyathi on LinkedIn"></a>
+</section>
+</main>
+</body>
+</html>
